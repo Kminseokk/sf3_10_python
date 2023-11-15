@@ -13,4 +13,7 @@ DAY23.11.10 > 함수화, 리스트, (모듈) py 파일 import
 DAY23.11.13 > 파일 쓰기, 수정, 예외처리, 데이터 처리, numpy 실습
 
 
-DAY23.11.14 > numpy, panda
+DAY23.11.14 > numpy, pandas (2. Creating, Reading and Writing, 3. Indexing, Selecting & Assigning, 4. Summary Functions and Maps)
+
+
+DAY23.11.15 > pandas (1. Grouping and Sorting, 2. Data Types and Missing Values, 3.Renaming and Combining)
