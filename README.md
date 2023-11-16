@@ -19,4 +19,4 @@ DAY23.11.14 > numpy, pandas (2. Creating, Reading and Writing, 3. Indexing, Sele
 DAY23.11.15 > pandas (1. Grouping and Sorting, 2. Data Types and Missing Values)
 
 
-DAY23.11.16 > PANDAS (1.Renaming and Combining), 2. pandas join, 3. matplot 데이터 시각화
+DAY23.11.16 > PANDAS (1.Renaming and Combining), 2. pandas join, 3. matplot 데이터 시각화, 4 line-charts (kaggle)
