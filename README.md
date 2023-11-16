@@ -16,4 +16,7 @@ DAY23.11.13 > 파일 쓰기, 수정, 예외처리, 데이터 처리, numpy 실�
 DAY23.11.14 > numpy, pandas (2. Creating, Reading and Writing, 3. Indexing, Selecting & Assigning, 4. Summary Functions and Maps)
 
 
-DAY23.11.15 > pandas (1. Grouping and Sorting, 2. Data Types and Missing Values, 3.Renaming and Combining)
+DAY23.11.15 > pandas (1. Grouping and Sorting, 2. Data Types and Missing Values)
+
+
+DAY23.11.16 > PANDAS (1.Renaming and Combining), 2. pandas join, 3. matplot 데이터 시각화
