@@ -1,0 +1,75 @@
+https://www.kaggle.com/code/minseokkun/exercise-scatter-plots/edit
+
+###1
+
+candy_data = pd.read_csv(candy_filepath, index_col = "id")
+
+
+
+###2
+
+candy_data.head()
+
+# Fill in the line below: Which candy was more popular with survey respondents:
+# '3 Musketeers' or 'Almond Joy'?  (Please enclose your answer in single quotes.)
+
+selec = candy_data.loc[[1, 3]]
+more_popular = selec.loc[selec['winpercent'].idxmax()]['competitorname']
+
+# Fill in the line below: Which candy has higher sugar content: 'Air Heads'
+# or 'Baby Ruth'? (Please enclose your answer in single quotes.)
+
+sele_sug = candy_data.loc[[2, 4]]
+more_sugar = sele_sug.loc[sele_sug['sugarpercent'].idxmax()]['competitorname']
+
+
++++
+candy_data2 = pd.read_csv(candy_filepath)
+selec2 = candy_data2.loc[[1,3]]
+
+candy_data3 = pd.read_csv(candy_filepath, index_col = "competitorname")
+selec3 = candy_data3.loc[['3 Musketeers', 'Almond Joy']]
+selec3
+
+
++++++++
+
+candy_data.loc[candy_data['competitorname'] == 'Almond Joy', 'winpercent'].values[0]
+candy_data.loc[candy_data['competitorname'] == 'Air Heads', 'sugarpercent'].values[0]
+
+
+###3
+
+# Scatter plot showing the relationship between 'sugarpercent' and 'winpercent'
+sns.scatterplot(x=candy_data['sugarpercent'], y=candy_data['winpercent'])
+
+
+
+
+###4
+
+# Scatter plot w/ regression line showing the relationship between 'sugarpercent' and 'winpercent'
+sns.regplot(x=candy_data['sugarpercent'], y=candy_data['winpercent'])
+
+
+
+###5
+
+# Scatter plot showing the relationship between 'pricepercent', 'winpercent', and 'chocolate'
+sns.scatterplot(x=candy_data['sugarpercent'], y=candy_data['winpercent'], hue=candy_data['chocolate'])
+
+
+
+###6
+
+# Color-coded scatter plot w/ regression lines
+sns.lmplot(x="pricepercent", y="winpercent", hue="chocolate", data=candy_data)
+
+
+
+###7
+
+# Scatter plot showing the relationship between 'chocolate' and 'winpercent'
+sns.swarmplot(x=candy_data['chocolate'],
+              y=candy_data['winpercent'])
+
