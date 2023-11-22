@@ -4,7 +4,6 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 
-
 chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
 
@@ -17,6 +16,7 @@ driver.get("https://www.naver.com")
 
 login = driver.find_element(By.CLASS_NAME, "MyView-module__my_login___tOTgr")
 login.click()
+
 
 id = driver.find_elements(By.CLASS_NAME, "input_text")[0]
 id.click()
