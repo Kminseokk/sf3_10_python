@@ -31,4 +31,4 @@ DAY23.11.20 > request, 크롤링, openpyxl, selenium
 DAY23.11.21 > 셀레니움을 통해 쇼핑 리스트 자동 업데이트
 
 
-DAY23.11.22 > 파이썬 데이터 분석 프로젝트
+DAY23.11.22 ~  > (data_project) 파이썬 데이터 분석 프로젝트
