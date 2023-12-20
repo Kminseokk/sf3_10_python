@@ -38,3 +38,12 @@ DAY23.12.11 > 선형회귀, 다중 선형 회귀, torch
 
 
 DAY23.12.12 > 분류, 로지스틱 회귀
+
+
+DAY23.12.13 > DBscan, df, GMM, k_mean
+
+
+DAY23.12.14 > FashionMnist, Mnist
+
+
+DAY23.12.20 > openCV
